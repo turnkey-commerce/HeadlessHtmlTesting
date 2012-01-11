@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Hello Me</h2>
+
+<div>
+
+@using (Html.BeginForm()){
+
+    @Html.Label("Input Your Name: ")
+    @Html.TextBox("name")
+}
+
+@if (ViewBag.Name != null) {
+    <div class="greeting">Hello @ViewBag.Name!</div>
+}
+
+</div>
+

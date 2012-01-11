@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadlessHtmlTesting", "HeadlessHtmlTesting\HeadlessHtmlTesting.csproj", "{5F1D74FE-21B6-4BE4-878F-2405042E3527}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EAF7991-3229-4419-A017-0F01F2C898BC}"
+	ProjectSection(SolutionItems) = preProject
+		HeadlessHtmlTesting.vsmdi = HeadlessHtmlTesting.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMe.Specs", "HelloMe.Specs\HelloMe.Specs.csproj", "{DC95314E-F126-4AD2-9C4E-5885F785E63B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloMe.Web", "HelloMe.Web\HelloMe.Web.csproj", "{82D0DDE3-975C-49CD-A42C-A916D689E5AE}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HeadlessHtmlTesting.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5F1D74FE-21B6-4BE4-878F-2405042E3527}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DC95314E-F126-4AD2-9C4E-5885F785E63B}.Release|x86.ActiveCfg = Release|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{82D0DDE3-975C-49CD-A42C-A916D689E5AE}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
