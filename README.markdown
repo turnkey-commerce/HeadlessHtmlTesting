@@ -2,7 +2,7 @@ Headless HTML Testing
 ---------------------
 
 This project is an example of using the [HTML Agility Pack](http://htmlagilitypack.codeplex.com/) to enable "headless browser" HTML tests for
-BDD or Integration tests. This particular project uses the [SpecFlow](http://specflow.org/) package to enable the tests.  Then the tests use the HeadlessHtmlTesting
+BDD or Integration testing in .Net. This particular project uses the [SpecFlow](http://specflow.org/) package to enable the tests.  Then the tests use the HeadlessHtmlTesting
 library to call the website and parse the results.  The library is based on the post by Rohit Agarwal - [Using HtmlAgilityPack to GET and POST web forms](http://refactoringaspnet.blogspot.com/2010/04/using-htmlagilitypack-to-get-and-post.html).
 
 Generally the tests run much faster than tests that actually bring up a browser such as Watin or Selenium, and are more suitable for testing betwen 
